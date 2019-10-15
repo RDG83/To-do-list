@@ -1,0 +1,92 @@
+.container {
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  background: white;
+}
+
+h1 {
+  background: orange;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+li:nth-child(odd) {
+  background-color: lightblue;
+}
+
+ul {
+  padding-left: 0;
+}
+
+body {
+  margin: 0;
+  align-items: center;
+  background: lightblue;
+  font-family: "Open Sans", sans-serif;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.inputbox {
+  padding-bottom: 10px;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #a4e271;
+  background: linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+  background-color: #89c403;
+  border-radius: 6px;
+  border: 1px solid #74b807;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528009;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+  background-color: #77a809;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+button {
+  margin-left: 6px;
+}
+
+input {
+  margin-left: 6px;
+}
+
+.ulbox {
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus {
+  border-color: #333;
+}
